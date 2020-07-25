@@ -1,0 +1,40 @@
+{
+  "name": "LandingPage",
+  "defaultLocale": "en",
+  "elements": [
+    {
+      "name": "latestOnBlogsTitle",
+      "list": false,
+      "type": "text",
+      "locale": [
+        {
+          "name": "en",
+          "locator": "xpath=//h2[text()='Latest on blogs']"
+        }
+      ]
+    },
+    {
+      "name": "myAccountLink",
+      "list": true,
+      "type": "link",
+      "locale": [
+        {
+          "name": "en",
+          "locator": "dropdownCurrency"
+        }
+      ]
+    },
+    {
+      "name": "loginLink",
+      "list": false,
+      "type": "link",
+      "locale": [
+        {
+          "name": "en",
+          "locator": "xpath=//a[text()='Login']"
+        }
+      ]
+    }
+  ],
+  "elementerVersion": "1.0.3"
+}

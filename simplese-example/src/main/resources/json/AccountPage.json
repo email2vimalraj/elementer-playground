@@ -1,0 +1,18 @@
+{
+  "name": "AccountPage",
+  "defaultLocale": "en",
+  "elements": [
+    {
+      "name": "welcomeUserLabel",
+      "list": false,
+      "type": "label",
+      "locale": [
+        {
+          "name": "en",
+          "locator": "css=html body.with-waypoint-sticky div.body-inner div.main-wrapper.scrollspy-action div div.container div.row.align-items-center div.col-md-6 div.row.align-items-center.pl-30 div.col-md-8 h3.text-align-left"
+        }
+      ]
+    }
+  ],
+  "elementerVersion": "1.0.3"
+}

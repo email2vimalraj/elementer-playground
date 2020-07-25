@@ -1,0 +1,40 @@
+{
+  "name": "LoginPage",
+  "defaultLocale": "en",
+  "elements": [
+    {
+      "name": "usernameTextBox",
+      "list": false,
+      "type": "text",
+      "locale": [
+        {
+          "name": "en",
+          "locator": "username"
+        }
+      ]
+    },
+    {
+      "name": "passwordTextbox",
+      "list": false,
+      "type": "text",
+      "locale": [
+        {
+          "name": "en",
+          "locator": "password"
+        }
+      ]
+    },
+    {
+      "name": "loginButton",
+      "list": false,
+      "type": "button",
+      "locale": [
+        {
+          "name": "en",
+          "locator": "css=form#loginfrm button.btn.btn-primary.btn-lg.btn-block.loginbtn"
+        }
+      ]
+    }
+  ],
+  "elementerVersion": "1.0.3"
+}
